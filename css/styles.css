@@ -1,0 +1,245 @@
+:root {
+  /*  COLORS  */
+  --main-Color: #ccc;
+  --black: black;
+  --equal-buttonColor: #0a5656c0;
+  --equal-button-Hover: #073f3fc0;
+  --buttonColor: #575959;
+  --clearButtonColor: hsla(351, 89%, 44%, 0.845);
+  --clearButton-hover: hsla(351, 89%, 38%, 0.823);
+  --specialButtonColor: hsl(0, 0%, 50%);
+  --specialButton-hover: hsl(0, 0%, 48%);
+
+  /*  FONTS  */
+  --Abel-font: Abel;
+  --Lexend-font: Lexend;
+  --CormorantGaramond-font: CormorantGaramond;
+  --Roboto-font: Roboto;
+  --The_Big_Apple-font: The_Big_Apple;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--Lexend-font);
+  background-color: #dbdbdb;
+}
+
+.title {
+  height: 50px;
+  margin-top: 200px;
+}
+
+h1 {
+  color: var(--main-Color);
+  text-shadow: 1px 1px 5px #000;
+  text-transform: uppercase;
+}
+
+.main-container {
+  width: 400px;
+  margin: 10vh auto 0 auto;
+  border: 1px solid hsl(0, 0%, 60%);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 5px rgba(34, 34, 34, 0.891);
+  background-color: #ccc;
+  position: relative;
+}
+
+h3 {
+  text-align: center;
+  color: #ccc;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 5px var(--black);
+}
+
+/*  FOR DISPLAY SCREEN  */
+#display {
+  height: 70px;
+  line-height: 70px;
+  padding: 18px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--Abel-font);
+  border-radius: 5px 5px 0 0;
+  margin: 20px 0 5px 0;
+  background-color: var(--main-Color);
+  box-shadow: inset 0px 0px 5px 1px var(--black);
+}
+
+/*
+.lines {
+  position: relative;
+}
+
+.line-1 {
+  width: 1px;
+  height: 52px;
+  background-color: rgba(0, 0, 0, 0.311);
+  position: absolute;
+  top: -127px;
+  left: 5px;
+  box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.486);
+}
+
+.line-2 {
+  width: 1px;
+  height: 52px;
+  background-color: rgba(0, 0, 0, 0.311);
+  position: absolute;
+  top: -127px;
+  left: 381px;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.486);
+}
+*/
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 3px;
+  padding: 1px;
+  background-color: #959393;
+}
+
+/*  FOR BUTTONS  */
+.button {
+  padding: 20px;
+  font-size: 25px;
+  line-height: 50px;
+  background: var(--buttonColor);
+  cursor: pointer;
+  border: 1px solid #616060d4;
+  margin: 1px;
+  transition: 0.5s;
+}
+
+/*  Buttons hover  */
+.button:hover {
+  background: #454646;
+  box-shadow: inset 1px 1px 5px -1px #333;
+}
+
+/*  FOR CLEAR BUTTON  */
+.clear {
+  background-color: var(--clearButtonColor);
+}
+
+.clear:hover {
+  background-color: var(--clearButton-hover);
+}
+
+/*  FOR SPECIAL BUTTONS  */
+.special-buttons {
+  background-color: var(--specialButtonColor);
+}
+
+.special-buttons:hover {
+  background-color: var(--specialButton-hover);
+}
+
+/*  FOR EQUAL BUTTON  */
+#equal {
+  background-color: var(--equal-buttonColor);
+}
+
+#equal:hover {
+  background-color: var(--equal-button-Hover);
+}
+
+.coder-details {
+  width: 100%;
+  position: relative;
+  top: 80px;
+  background-color: var(--equal-buttonColor);
+}
+
+.coder-details > p {
+  color: var(--black);
+  font-size: 1.2rem;
+  font-weight: 600;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 150px;
+}
+
+.my-name {
+  position: absolute;
+  right: 20px;
+}
+
+.my-name > div > h3 {
+  font-size: 2rem;
+  color: var(--main-Color);
+  text-shadow: 1px 1px 5px #000;
+  font-family: var(--The_Big_Apple-font);
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.my-name > p {
+  font-size: 1rem;
+  position: absolute;
+  right: 20px;
+}
+
+.my-name > p > a {
+  text-decoration: none;
+  color: rgb(7, 67, 172);
+}
+
+.my-name > p > a:hover {
+  border-bottom: 1px groove;
+  border-bottom-color: rgb(7, 67, 172);
+  transition: 0.1s linear;
+}
+
+.social-links > ul > li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.social-links > ul > li > a {
+  color: var(--main-Color);
+  text-shadow: 1px 1px 5px #000;
+  font-size: 1.5rem;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+
+.social-links > ul > li:nth-child(1) a:hover {
+  color: hsl(215, 91%, 31%);
+}
+
+.social-links > ul > li:nth-child(2) a:hover {
+  color: hsl(180, 2%, 9%);
+}
+
+.social-links > ul > li:nth-child(3) a:hover {
+  color: hsl(30, 56%, 54%);
+}
+
+.social-links > ul > li:nth-child(4) a:hover {
+  color: hsl(218, 70%, 41%);
+}
+
+.details {
+  text-align: center;
+}

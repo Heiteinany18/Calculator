@@ -1,0 +1,264 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .title {
+    height: 50px;
+    margin-top: 500px;
+  }
+
+  .main-container {
+    width: 320px;
+    padding: 1px;
+  }
+
+  /*  FOR DISPLAY SCREEN  */
+  #display {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  /*  FOR BUTTONS  */
+  .button {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  /*  Coder details  */
+  .coder-details {
+    position: relative;
+    top: 40px;
+  }
+
+  .coder-details > p {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  .my-name > div > h3 {
+    font-size: 0.7rem;
+  }
+
+
+  .my-name > p {
+    font-size: 0.7rem;
+    position: absolute;
+    right: 20px;
+  }
+
+  .social-links > ul > li > a {
+    color: var(--main-Color);
+    text-shadow: 1px 1px 5px #000;
+    font-size: 1rem;
+  }
+
+  .details {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
+
+/*  SMALL PHONES  */
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  .title {
+    height: 50px;
+    margin-top: 650px;
+  }
+
+  .main-container {
+    width: 200px;
+    padding: 1px;
+  }
+
+  /*  FOR DISPLAY SCREEN  */
+  #display {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  /*  FOR BUTTONS  */
+  .button {
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .my-name {
+    position: absolute;
+    right: 10px;
+  }
+
+  /*  Coder details  */
+  .coder-details {
+    position: relative;
+    top: 30px;
+  }
+
+  .coder-details > p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    position: relative;
+    left: 10px;
+  }
+
+  .my-name > div > h3 {
+    font-size: 0.5rem;
+    position: relative;
+    top: 6.5px;
+  }
+
+  .my-name > p {
+    font-size: 0.7rem;
+    position: absolute;
+    right: 0px;
+  }
+
+  .social-links > ul > li > a {
+    color: var(--main-Color);
+    text-shadow: 1px 1px 5px #000;
+    font-size: 1rem;
+    position: relative;
+    right: 20px;
+  }
+
+  .details {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 670px) {
+  .title {
+    height: 50px;
+    margin-top: 650px;
+  }
+
+  .main-container {
+    width: 300px;
+    padding: 1px;
+  }
+
+  /*  FOR DISPLAY SCREEN  */
+  #display {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .my-name {
+    position: absolute;
+    right: 10px;
+  }
+
+  /*  Coder details  */
+  .coder-details {
+    position: relative;
+    top: 30px;
+  }
+
+  .coder-details > p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .my-name > div > h3 {
+    font-size: 0.7rem;
+    position: relative;
+    top: 6.5px;
+  }
+
+  .my-name > p {
+    font-size: 0.7rem;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 670px) and (max-width: 740px) {
+  .title {
+    height: 50px;
+    margin-top: 650px;
+  }
+
+  /*  Coder details  */
+  .coder-details {
+    position: relative;
+    top: 30px;
+  }
+
+  .coder-details > p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .my-name > div > h3 {
+    font-size: 0.7rem;
+    position: relative;
+    top: 6.5px;
+  }
+
+
+  .my-name > p {
+    font-size: 0.7rem;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 860px) {
+  .title {
+    height: 50px;
+    margin-top: 650px;
+  }
+
+  .my-name {
+    position: absolute;
+    right: 20px;
+  }
+
+  /*  Coder details  */
+  .coder-details {
+    position: relative;
+    top: 30px;
+  }
+
+  .coder-details > p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .my-name > div > h3 {
+    font-size: 0.7rem;
+    position: relative;
+    top: 6.5px;
+  }
+
+
+  .my-name > p {
+    font-size: 0.7rem;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1200px) {
+  .title {
+    height: 50px;
+    margin-top: 400px;
+  }
+
+  /*  Coder details  */
+  .coder-details {
+    position: relative;
+    top: 30px;
+  }
+
+  .coder-details > p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .my-name > div > h3 {
+    font-size: 0.7rem;
+    position: relative;
+    top: 6.5px;
+  }
+
+
+  .my-name > p {
+    font-size: 0.7rem;
+    position: absolute;
+  }
+}
